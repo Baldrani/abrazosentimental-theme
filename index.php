@@ -16,11 +16,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
         <?php echo do_shortcode( '[calendar id="12"]' ); ?>
 
-        <?php echo do_shortcode('[slider direction="left" autoplay="1" duration="5"]
-            http://placekitten.com/g/200/300
-            http://placekitten.com/g/200/300
-            http://placekitten.com/g/200/300
-            [/slider]') ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
