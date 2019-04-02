@@ -18,6 +18,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Oblique is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 */
 
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
 body {
 	color: #50545c;
 	background-color: #1c1c1c;
@@ -33,7 +35,7 @@ h4,
 h5,
 h6 {
 	color: #000;
-	font-family: "Playfair Display", serif;
+	font-family: 'Bad Script', cursive;
 }
 a,
 a:hover {
@@ -1008,7 +1010,7 @@ Structure
 	margin-bottom: 45px;
 }
 .site-branding {
-	padding: 150px 0;
+	padding: 180px 0;
 	text-align: center;
 }
 .site-logo {
@@ -1019,14 +1021,14 @@ Structure
 }
 .site-title {
 	margin: 0 0 30px;
-	font-size: 82px;
+	font-size: 9rem;
 }
 .site-title a {
 	color: #f9f9f9;
 }
 .site-description {
 	color: #ddd;
-	font-size: 18px;
+	font-size: 3rem
 }
 .overlay {
 	position: absolute;
