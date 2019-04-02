@@ -2,17 +2,17 @@
 
 // Parallax
 jQuery(function($) {
-	$( '.site-header' ).parallax( '50%', 0.3 );
+	$('.site-header').parallax( '50%', 0.3 );
 });
 
 // Toggle sidebar
 jQuery(function($) {
-	$( '.sidebar-toggle' ).click(function() {
+	$( '.sidebar-toggle' ).click(() => {
 		$( '.widget-area' ).toggleClass( 'widget-area-visible' );
 		$( '.sidebar-toggle' ).toggleClass( 'sidebar-toggled' );
 		$( '.sidebar-toggle' ).find( 'i' ).toggleClass( 'fa-bars fa-times' );
 	});
-	$( '.sidebar-toggle-inside' ).click(function() {
+	$( '.sidebar-toggle-inside' ).click(() => {
 		$( '.widget-area' ).toggleClass( 'widget-area-visible' );
 	});
 });
@@ -30,8 +30,10 @@ jQuery(function($) {
 		label: '',
 		duration: 500,
 		prependTo:'.sidebar-nav',
-		closedSymbol: '&#43;',
-		openedSymbol: '&#45;',
+		closedSymbol: '&rarr;',
+		openedSymbol: '&darr;',
 		allowParentLinks: true
 	});
+
+	$('.slicknav_arrow').click()
 });
