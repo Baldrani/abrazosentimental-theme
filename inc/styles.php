@@ -50,9 +50,9 @@ function oblique_custom_styles( $custom ) {
 		$custom .= '.site-title { font-size:' . intval( $site_title_size ) . 'px; }' . "\n";
 	}
 	// Site description
-	$site_desc_size = get_theme_mod( 'site_desc_size', '18' );
+	$site_desc_size = get_theme_mod( 'site_desc_size', '4' );
 	if ( ! empty( $site_desc_size ) ) {
-		$custom .= '.site-description { font-size:' . intval( $site_desc_size ) . 'px; }' . "\n";
+		$custom .= '.site-description { font-size:' . intval( $site_desc_size ) . 'rem; }' . "\n";
 	}
 	// Menu
 	$menu_size = get_theme_mod( 'menu_size', '16' );
