@@ -53,11 +53,13 @@
 			</nav>
 		<?php endif; ?>
 		<?php do_action( 'oblique_nav_search' ); ?>
+        <?php /*
 		<?php if ( ! get_theme_mod( 'search_toggle' ) || is_customize_preview() ) : ?>
 			<div class="header-search<?php echo get_theme_mod( 'search_toggle' ) && is_customize_preview() ? ' oblique-only-customizer' : ''; ?>">
 				<?php get_search_form(); ?>
 			</div>
 		<?php endif; ?>
+         */ ?>
 	</div>
 
 	<?php do_action( 'oblique_nav_container' ); ?>
