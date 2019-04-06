@@ -2456,3 +2456,11 @@ Responsive
 {
 	height: 550px
 }
+
+/* Override Bootstrap */
+.row{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
