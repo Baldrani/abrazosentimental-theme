@@ -78,8 +78,8 @@ if ( ! function_exists( 'oblique_setup' ) ) :
 		add_theme_support(
 			'html5',
 			array(
-				'search-form',
-				'comment-form',
+				//'search-form',
+				//'comment-form',
 				'comment-list',
 				'gallery',
 				'caption',
