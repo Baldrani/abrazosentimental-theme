@@ -25,7 +25,7 @@
             </div>
         <?php endif; ?>
 
-        <div class="entry-content col-xs-12 col-sm-8">
+        <div class="entry-content col-xs-12 <?php if ( has_post_thumbnail() && ( get_theme_mod( 'post_feat_image' ) != 1 ) ) : ?> col-sm-8 <?php endif ?>">
             <?php the_content(); ?>
             <?php
             wp_link_pages(
